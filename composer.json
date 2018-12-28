@@ -1,8 +1,8 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "michz/sylius-ticketing-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
-    "description": "Acme example plugin for Sylius.",
+    "description": "Plugin that helps selling electronic event tickets using sylius.",
     "license": "MIT",
     "require": {
         "php": "^7.2",
@@ -47,8 +47,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Acme\\SyliusExamplePlugin\\": "src/",
-            "Tests\\Acme\\SyliusExamplePlugin\\": "tests/"
+            "mztx\\SyliusTicketingPlugin\\": "src/",
+            "Tests\\mztx\\SyliusTicketingPlugin\\": "tests/"
         }
     },
     "extra": {
